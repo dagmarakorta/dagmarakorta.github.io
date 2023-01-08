@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header modal-color">
+          <h5 class="modal-title modal-color" id="shareModalLabel">Share your wishlist</h5>
+          <button type="button" class="btn-close" style="background-color: white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-color" data-controller="share-modal">
+          <label for="shareLink">Link:</label><span id="copied-tooltip" data-share-modal-target="tooltip">Copied to clipboard</span>
+          <div class="input-group mb-3">
+            <input id="shareLink" name="shareLink" type="url" class="form-control modal-input" value="<%= share_url(current_user.id)%>" data-share-modal-target="text" readonly/>
+              <i class="fa-solid fa-clipboard input-group-text modal-input" style="cursor: pointer" data-action="click->share-modal#copy"></i>
+          </div>
+          <%= social_share_button_tag("Check out my game wishlist!", :url => share_url(current_user.id)) %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wishlist-title mb-3">
+    <h1 class="h1-wishlist">Your Wishlist</h1>
+  </div>
+  <% if @wishlists.empty? %>
+    <p class="text-center mt-5">No games added to wishlists yet</p>
+  <% else %>
+    <a class="button wishlist-share" style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#shareModal">Share</a>
+    <ul class="container d-flex justify-content-between row" data-controller="wishlist" id="wishlist">
+      <% @wishlists.each do |wishlist| %>
+        <li data-id="<%= wishlist.id %>">
+          <%= render partial: 'wishlist-card', locals: {wishlist: wishlist} %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>

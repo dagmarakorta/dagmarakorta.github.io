@@ -1,0 +1,150 @@
+<div class="container">
+  <% if @game.screenshots.count >= 5 %>
+    <div class="images-part">
+      <div>
+        <%= image_tag @game.cover, class: "game-cover-show" %>
+      </div>
+      <div>
+        <%= image_tag @game.screenshots[0..1].sample, class: "main-screenshots" %>
+      </div>
+      <div class="right-screens">
+        <%= image_tag @game.screenshots[2..3].sample, class: "screenshots-show"%>
+        <%= image_tag @game.screenshots[4..5].sample, class: "screenshots-show" %>
+      </div>
+    </div>
+  <% elsif @game.screenshots.count >= 3 %>
+    <div class="images-part">
+      <div>
+        <%= image_tag @game.cover, class: "game-cover-show" %>
+      </div>
+      <div>
+        <%= image_tag @game.screenshots[0], class: "main-screenshots" %>
+      </div>
+      <div class="right-screens">
+        <%= image_tag @game.screenshots[1], class: "screenshots-show"%>
+        <%= image_tag @game.screenshots[2], class: "screenshots-show" %>
+      </div>
+    </div>
+  <% elsif @game.screenshots.count >= 1 %>
+    <div class="images-part">
+      <div>
+        <%= image_tag @game.cover, class: "game-cover-show" %>
+      </div>
+      <div>
+        <%= image_tag @game.screenshots[0..1].sample, class: "main-screenshots" %>
+      </div>
+    </div>
+  <% end %>
+  <div class="modal fade" id="storesModal" tabindex="-1" aria-labelledby="storesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header modal-color">
+          <h5 class="modal-title" id="storesModalLabel">Stores</h5>
+          <button type="button" class="btn-close" style="background-color: white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body modal-color">
+          <div class="d-flex flex-wrap">
+            <% @game.stores&.each do |store| %>
+              <% if store.match?("google") %>
+                <% store_name = "Google" %>
+              <% elsif store.match?("steam") %>
+                <% store_name = "Steam" %>
+              <% else %>
+                <% store_name = store.match(/(?<store>[a-z]+)\.[^\.]*$/)["store"].capitalize %>
+              <% end %>
+              <%= link_to store_name, store, target: "_blank", class: "button" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-between pt-3">
+    <div class="d-flex flex-column flex-wrap">
+      <h1><%= @game.name %></h1>
+      <h4>⭐️ <%= @game.rating.round(1) %>/100</h4>
+      <div class="d-flex" style="gap: 10px">
+      <% @game.tags.first(5).each do |tag| %>
+        <div class="gameshowtags"><%= tag %></div>
+      <% end %>
+      </div>
+      <div class="summary-game">
+        <%= @game.summary %>
+      </div>
+    </div>
+    <div class="d-flex flex-column">
+      <div class="d-flex flex-column">
+          <% unless @game.stores.blank? %>
+            <a class="button buy-button w-auto" style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#storesModal">Buy for <%= rand(15..45) %>€</a>
+          <% end %>
+        <turbo-frame id="buttons" class="choices-buttons">
+            <div class="d-flex flex-column align-items-center">
+              <% if current_user.favorite?(@game) %>
+                <%= link_to favorite_path(current_user.favorites.find_by(game: @game)), data: { turbo_method: :delete }, class: "button like-button" do%>
+                  <i class="fa-solid fa-heart"></i>
+                <% end %>
+              <% else %>
+                <%= link_to favorites_path(game_id: @game.id), data: { turbo_method: :post }, class: "button like-button" do %>
+                  <i class="fa-regular fa-heart"></i>
+                <% end %>
+              <% end %>
+              <p class="d-inline-flex flex-nowrap align-items-center" style="gap: 5px"><i class="fa-solid fa-heart mr-2"></i> <%= (@game.favorites.size + @game.name.sum(&:ord) * (@game.name.chr.ord % 10 + 2)) % 10000 %></p>
+            </div>
+            <div>
+              <% if current_user.wishlist?(@game) %>
+                <%= link_to "- Wishlist", wishlist_path(current_user.wishlists.find_by(game: @game)), data: { turbo_method: :delete }, class: "button add-wish" %>
+              <% else %>
+                <%= link_to "+ Wishlist", wishlists_path(game_id: @game.id), data: { turbo_method: :post }, class: "button add-wish" %>
+              <% end %>
+              <div class="wish-icon">
+              <p><i class="fa-solid fa-clipboard-list"></i> <%= (@game.wishlists.size + @game.name.sum(&:ord)) % 10000 %></p>
+              </div>
+            </div>
+          </turbo-frame>
+      </div>
+      <div class="platforms-div">
+        <% @game.platforms.each do |platform| %>
+          <div>
+            <% if platform.upcase.include?("PC") %>
+              <i class="fa-solid fa-desktop"></i> <%= platform %>
+            <% elsif platform.upcase.include?("MAC") %>
+              <i class="fa-solid fa-desktop"></i> <%= platform %>
+            <% elsif platform.upcase.include?("PLAY") %>
+              <i class="fa-brands fa-playstation"></i> <%= platform %>
+            <% elsif platform.upcase.include?("XBOX") %>
+              <i class="fa-brands fa-xbox"></i> <%= platform %>
+            <% else %>
+              <%= platform  %>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <% unless @game.videos&.blank? %>
+    <div class="mx-auto mt-5 mb-3" style="width: 900px;">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe class="d-block mx-auto" width="640" height="360" src=<%= @game.videos.first %> title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <% @game.videos&.drop(1)&.each do |video| %>
+            <div class="carousel-item">
+              <iframe class="d-block mx-auto" width="640" height="360" src=<%= video %> title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+          <% end %>
+        </div>
+        <% unless @game.videos.count <= 1 %>
+          <button class="carousel-control-prev ml-5" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

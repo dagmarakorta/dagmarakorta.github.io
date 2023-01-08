@@ -1,0 +1,28 @@
+<div class="item-list" >
+  <div class="number">
+    <p data-wishlist-target="number"><%= @i += 1 %></p>
+  </div>
+  <div class="card-product" draggable="true"
+      data-wishlist-id="<%= @i %>" >
+    <%= link_to game_path(wishlist.game) do%>
+    <%= image_tag "#{wishlist.game.cover}"%>
+    <% end %>
+    <div class="card-product-infos">
+      <h2><%= wishlist.game.name %></h2>
+        <p><%= truncate(wishlist.game.summary, length: 500, separator: ". ") %></p>
+      <%= link_to wishlist_path(wishlist), data: {turbo_method: :delete, turbo_confirm: "Remove from wishlist ?"} do%>
+        <i class="fa-solid fa-trash-can white-trashcan"></i>
+      <% end %>
+      <%= link_to game_path(wishlist.game) do %>
+      <div class="secret-wishlist">
+        <p><%= wishlist.game.rating.to_i %>/100</p>
+        <p><%= wishlist.game.platforms.join(', ') %></p>
+        <p>See more</p>
+          <%= link_to wishlist_path(wishlist), data: {turbo_method: :delete, turbo_confirm: "Remove from wishlist ?"} do%>
+            <i class="fa-solid fa-trash-can"></i>
+          <% end %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>

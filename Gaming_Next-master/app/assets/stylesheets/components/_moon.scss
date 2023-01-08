@@ -1,0 +1,80 @@
+body.moon {
+  color: white;
+  background-color: $dark-blue;
+}
+
+.moon .searchbar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.moon .searchbarlist {
+  background-color: rgba(36, 87, 153, 0.727);
+  color: white;
+  a {
+    text-decoration: none;
+    color: $light-gray;
+  }
+}
+
+.moon .navbar {
+  background-color: $dark-blue;
+}
+
+.moon .footer {
+  background-color: $dark-blue;
+}
+
+.moon .add {
+    margin-left: 10px ;
+    i {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      color: white;
+  }
+}
+
+.moon .remove:hover {
+  i{
+    transition: 0.3s;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+  }
+}
+
+.add:hover {
+  i{
+    transition: 0.3s;
+    color: black;
+  }
+}
+
+.moon .remove {
+  i{
+    color: black;
+  }
+}
+
+.moon .modal-color {
+  color: white;
+  background-color: $dark-blue;
+}
+
+.moon .modal-input {
+  color: white;
+  background-color: rgba(36, 87, 153, 0.727);
+}
+
+.moon .title-sugg {
+  h1 {
+    color: white;
+  }
+}
+
+.moon .carousel-control-next {
+  filter: none;
+}
+.moon .carousel-control-prev {
+  filter: none;
+}

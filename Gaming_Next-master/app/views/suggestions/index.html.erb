@@ -1,0 +1,103 @@
+<div class="container">
+    <div class="top title-sugg">
+      <h1 class="text-center">Top suggestions for you</h1>
+      <%unless @suggestions.empty? %>
+        <div class="d-flex justify-content-center align-items-start">
+          <div class="">
+            <div class="suggested-card">
+              <div class="suggested-cover-gold">
+                <%= image_tag "#{@suggestions[0].cover}", class: "suggested-cover-gold"%>
+                <i class="fa-solid fa-medal one"></i>
+              </div>
+              <div class="suggest-name">
+                <%= truncate(@suggestions[0].name, length: 40, separator: " ") %>
+              </div>
+              <div class="suggested-secret">
+                <p>Because you liked : </p>
+                <% @suggestions[0].tags.uniq.first(8).each do |tag| %>
+                  <p><em><%= tag.capitalize %></em></p>
+                <% end %>
+                <%= link_to game_path(@suggestions[0]), class: "button mx-auto" do %>
+                  Go to game's page
+                <% end %>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="suggested-card">
+              <div class="suggested-cover-silver">
+                <%= image_tag "#{@suggestions[1].cover}", class: "suggested-cover-silver"%>
+                <i class="fa-solid fa-medal two"></i>
+              </div>
+              <div class="suggest-name">
+                <%= truncate(@suggestions[1].name, length: 40, separator: " ")%>
+              </div>
+              <div class="suggested-secret">
+                <p>Because you liked : </p>
+                <% @suggestions[1].tags.uniq.first(8).each do |tag| %>
+                <p><em><%= tag.capitalize %></em></p>
+                <% end %>
+                <%= link_to game_path(@suggestions[1]), class: "button mx-auto" do %>
+                  Go to game's page
+                <% end %>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="suggested-card">
+              <div class="suggested-cover-bronze">
+                <%= image_tag "#{@suggestions[2].cover}", class: "suggested-cover-bronze"%>
+                <i class="fa-solid fa-medal three"></i>
+              </div>
+              <div class="suggest-name">
+                <%= truncate(@suggestions[2].name, length: 40, separator: " ") %>
+              </div>
+              <div class="suggested-secret">
+                <p>Because you liked : </p>
+                <% @suggestions[2].tags.uniq.first(8).each do |tag| %>
+                  <p><em><%= tag.capitalize %></em></p>
+                <% end %>
+                <%= link_to game_path(@suggestions[2]), class: "button mx-auto" do %>
+                  Go to game's page
+                <% end %>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <% end %>
+    <div class="all">
+      <% if !@suggestions.empty? %>
+        <h1 class="text-justify">All suggestions</h1>
+      <% end %>
+      <div class="d-flex justify-content-between row">
+        <%= "Please add some games to your favorites" if @suggestions.empty?%>
+        <% @suggestions.each do |suggestion| %>
+          <div class="card-suggest col-6">
+            <div>
+              <%= link_to game_path(suggestion) do %>
+                <%= image_tag "#{suggestion.cover}"%>
+              <% end %>
+              <div class="suggest-rating d-flex justify-content-center">
+                  <p><i class="fa-solid fa-face-grin"></i><%= suggestion.rating.round(1) %>%</p>
+              </div>
+            </div>
+            <div class="card-suggest-infos d-flex flex-column justify-content-between">
+            <div>
+              <h2><%= suggestion.name %></h2>
+              <p><%= truncate(suggestion.summary, length: 450, separator: ". ") %></p>
+            </div>
+            <div class="d-flex">
+              <% suggestion.genres.each do |genre| %>
+              <div class="suggest-genre">
+                <%= genre %>
+              </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

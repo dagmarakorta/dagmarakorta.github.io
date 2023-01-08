@@ -1,0 +1,47 @@
+<div class="page" data-controller="searchbar" data-action="click->searchbar#close">
+  <div class="searchbarcontainer">
+    <div data-searchbar-target="searchdiv">
+      <div class="d-flex justify-content-center">
+        <%= form_with url: favorites_path, method: :get, html: { class: "m-2", autocomplete: "off", data: {searchbar_target: "form"}} do |f| %>
+        <%= f.text_field :query,
+                        class: "form-control searchbar",
+                        placeholder: "Add your favorite game !",
+                        value: params[:query],
+                        data: {searchbar_target: "input",
+                        action: "keyup->searchbar#update"} %>
+        <% end %>
+        <div class="position-relative">
+          <% if !@favorites.empty? %>
+            <div class="button-favorites button position-relative">
+              <i class="fa-solid fa-gamepad"></i>
+              <%= link_to "Suggest", suggestions_path, class: "favorite-link" %>
+              <% if cookies[:moon] == "off" %>
+                <%= image_tag "black_arrow.gif?a=#{rand(1..10000)}", alt: "gamer gif", class: "black-arrow-favorites-right" %>
+              <% elsif cookies[:moon] == "on" %>
+                <%= image_tag "white_arrow.gif?a=#{rand(1..10000)}", alt: "gamer gif", class: "white-arrow-favorites-right" %>
+              <% end %>
+            </div>
+          <% else %>
+            <% if cookies[:moon] == "off" %>
+              <%= image_tag "black_arrow.gif?a=#{rand(1..10000)}", alt: "gamer gif", class: "black-arrow-favorites" %>
+            <% elsif cookies[:moon] == "on" %>
+              <%= image_tag "white_arrow.gif?a=#{rand(1..10000)}", alt: "gamer gif", class: "white-arrow-favorites" %>
+            <% end %>
+          <% end %>
+        </div>
+
+      </div>
+      <ul data-searchbar-target="list" class="searchbarlist">
+        <%= render 'list', games: @games %>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cards-container">
+    <% @favorites.each do |favorite| %>
+      <%#= link_to game_path(favorite.game) do %>
+        <%= render partial: "game", locals: { game: favorite.game, favorite: favorite } %>
+      <%# end %>
+    <% end %>
+  </div>
+</div>

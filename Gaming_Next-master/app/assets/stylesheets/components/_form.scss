@@ -1,0 +1,16 @@
+.formulaire {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.form-link {
+  padding: 5px;
+  color: $light-gray;
+  text-shadow: 1px 0px 2px $dark-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: $light-gray;
+  }
+}

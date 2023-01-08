@@ -1,0 +1,127 @@
+.show-summary {
+  font-size: 16px;
+  text-align: center;
+}
+
+.show-infos {
+  text-align: center;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    margin-right: 5px;
+  }
+}
+
+.title-show {
+  margin-left: 45px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 45px;
+  h2 {
+    padding-top: 6px;
+  }
+}
+
+.images-part {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game-cover-show {
+  border-radius: 5px;
+  height: 322px;
+  width: 206px;
+}
+
+.main-screenshots {
+  border-radius: 5px;
+  height: 322px;
+  width: 572px;
+}
+
+.screenshots-show {
+  border-radius: 5px;
+  height: 151px;
+  width: 320px;
+}
+
+.right-screens {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ratingtags {
+  margin: 0 45px;
+  font-size: 20px;
+  display: flex ;
+}
+
+.gameshowtags {
+  font-size: 14px;
+  padding: 4px;
+  background-color: $middle-blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.modal-header {
+  background-color: white;
+}
+
+.modal-body {
+  background-color: white;
+}
+
+.like-button {
+
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.choices-buttons {
+  display: flex;
+}
+
+.game-summary {
+  margin-left: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+
+}
+
+.summary-game {
+  width: 600px;
+  margin-top: 10px;
+}
+
+.buy-button {
+  // width: 200px;
+  color: $azur;
+  background-color: white;
+}
+
+.add-wish {
+  width: 200px;
+}
+
+.wish-icon {
+  text-align: center;
+}
+
+.rating-show {
+  margin-right: 300px;
+  margin-top: 15px;
+}
+
+.carousel-control-next {
+  filter: invert(100%);
+}
+.carousel-control-prev {
+  filter: invert(100%);
+}

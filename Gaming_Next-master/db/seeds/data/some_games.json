@@ -1,0 +1,1771 @@
+[
+  {
+    "id": 24550,
+    "aggregated_rating": 93.0,
+    "name": "Space Bits"
+  },
+  {
+    "id": 7881,
+    "aggregated_rating": 91.5,
+    "cover": {
+      "id": 136747,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2xij.jpg"
+    },
+    "name": "ESPN NFL 2K5",
+    "platforms": [
+      {
+        "id": 8,
+        "name": "PlayStation 2"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 430943,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98in.jpg"
+      },
+      {
+        "id": 430944,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98io.jpg"
+      },
+      {
+        "id": 430945,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98ip.jpg"
+      },
+      {
+        "id": 430946,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98iq.jpg"
+      },
+      {
+        "id": 430947,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98ir.jpg"
+      },
+      {
+        "id": 430948,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98is.jpg"
+      },
+      {
+        "id": 430949,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98it.jpg"
+      },
+      {
+        "id": 430950,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98iu.jpg"
+      },
+      {
+        "id": 430951,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98iv.jpg"
+      },
+      {
+        "id": 430952,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98iw.jpg"
+      },
+      {
+        "id": 430953,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98ix.jpg"
+      },
+      {
+        "id": 430954,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc98iy.jpg"
+      }
+    ],
+    "summary": "ESPN NFL 2K5 is an American football video game developed by Visual Concepts for the PlayStation 2 and Xbox consoles. Published by Sega Sports and the Sega Corporation, it is the sixth installment of the NFL 2K series and the last to use official NFL licensing until an unnamed sequel is released in 2021. Gameplay is presented as a live ESPN television broadcast and features the voices and digital likenesses of multiple ESPN on-air personalities. \n \nThe game was originally released on July 20, 2004. It was the last NFL 2K game to be released before Electronic Arts (EA) signed an exclusive rights agreement with the National Football League (NFL) to make 2K\u0027s rival Madden NFL series the only officially licensed NFL game and was also the last game still being developed by Sega.",
+    "tags": [
+      1,
+      32,
+      268435469,
+      268435470,
+      536870938,
+      536870939,
+      536870944,
+      536872078,
+      536872245,
+      536872352,
+      536872637,
+      536875138,
+      536875140,
+      536875186,
+      536875464,
+      536875494,
+      536875562,
+      536875749,
+      536875802,
+      536875857,
+      536875870,
+      536875941,
+      536876190,
+      536876485,
+      536877406,
+      536877686,
+      536878091,
+      536878092,
+      536878093,
+      536878125,
+      536879121,
+      536879648,
+      536879649,
+      536879650,
+      536879651,
+      536879653,
+      536879655,
+      536879656,
+      536879657,
+      536879658,
+      536879659,
+      536879668,
+      536879670,
+      536879874,
+      536879948,
+      536879987,
+      536880491,
+      536881431,
+      536882807,
+      536883028,
+      536884022,
+      536884207,
+      536886310
+    ],
+    "videos": [
+      {
+        "id": 3006,
+        "video_id": "8XyX8npJPSI"
+      }
+    ]
+  },
+  {
+    "id": 9186,
+    "aggregated_rating": 100.0,
+    "cover": {
+      "id": 161319,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3gh3.jpg"
+    },
+    "name": "Robotron X",
+    "platforms": [
+      {
+        "id": 7,
+        "name": "PlayStation"
+      }
+    ],
+    "summary": "The arcade classic is taken to the next level, this time in 3D. The super-enhanced hero Ugene is once again called into action to save the last human family against the hordes of relentless Robotrons. Battle through 100 different levels, gaining new power-ups and abilities as Ugene survives wave after wave of the unrelenting hordes. While Ugene may face the familiar Robotrons, there will be new additions and tricks that the killer robots will use against the last surviving human family. Ugene must protect them at all cost while racking up the highest possible score!",
+    "tags": [
+      1,
+      268435461,
+      536870915,
+      536871851,
+      536873064,
+      536875271,
+      536875481,
+      536875871,
+      536876283,
+      536877713,
+      536878480,
+      536880882,
+      536882127,
+      536884033
+    ]
+  },
+  {
+    "id": 20921,
+    "aggregated_rating": 100.0,
+    "name": "Interwebs Troll Simulator"
+  },
+  {
+    "id": 163826,
+    "aggregated_rating": 100.0,
+    "cover": {
+      "id": 168931,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3mcj.jpg"
+    },
+    "name": "Blake: The Visual Novel",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 583733,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scciet.jpg"
+      },
+      {
+        "id": 583734,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sccieu.jpg"
+      },
+      {
+        "id": 583735,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scciev.jpg"
+      },
+      {
+        "id": 583736,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scciew.jpg"
+      },
+      {
+        "id": 583737,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scciex.jpg"
+      }
+    ],
+    "summary": "Graphic Novel meets Visual Novel in this sci-fi/thriller interactive story. As incriminating events start to revolve around him, experience the dark, mind-bending journey of Blake and his pivotal transformation into a vigilante.",
+    "tags": [
+      20,
+      268435488,
+      536871013,
+      536871046,
+      536872048,
+      536874446,
+      536889405
+    ],
+    "videos": [
+      {
+        "id": 54517,
+        "video_id": "5JGzTqdjNjg"
+      }
+    ]
+  },
+  {
+    "id": 841,
+    "aggregated_rating": 90.25,
+    "cover": {
+      "id": 193798,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co45ja.jpg"
+    },
+    "name": "Rallisport Challenge",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 401573,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8lut.jpg"
+      },
+      {
+        "id": 401574,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8luu.jpg"
+      },
+      {
+        "id": 401575,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8luv.jpg"
+      }
+    ],
+    "summary": "You want real rally racing? Try strapping yourself in for the four play modes of Rallisport Challenge. Twenty-five licensed vehicles participate in Conventional Rally, RallyCross, Hill Climb and Ice Racing. Tracks are taken from the real world, with matching terrains and environments. Particle and weather effects heighten the realism. Rallisport Challenge\u0027s unique AI engine delivers drivers with their own individual personalities and driving habits, and effective graphics and animations bring it all to life.",
+    "tags": [
+      32,
+      268435466,
+      268435469,
+      268435470,
+      536870940
+    ],
+    "videos": [
+      {
+        "id": 41099,
+        "video_id": "_RY_VK-lvFg"
+      },
+      {
+        "id": 41100,
+        "video_id": "9qBFFTx4g-U"
+      }
+    ]
+  },
+  {
+    "id": 1309,
+    "aggregated_rating": 93.3333333333333,
+    "cover": {
+      "id": 140996,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co30sk.jpg"
+    },
+    "name": "Medal of Honor: Frontline",
+    "platforms": [
+      {
+        "id": 8,
+        "name": "PlayStation 2"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      },
+      {
+        "id": 21,
+        "name": "Nintendo GameCube"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 1409,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sbbvxjeoaexxiccjblcr.jpg"
+      },
+      {
+        "id": 1410,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/krq742nkmkb3uoz5fgjw.jpg"
+      },
+      {
+        "id": 6463,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/iqcupkgmg5p73n7tplkm.jpg"
+      },
+      {
+        "id": 6464,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/apm00wdzbdioaypx68sd.jpg"
+      },
+      {
+        "id": 6465,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/br4cz4yxf6c46dluicha.jpg"
+      }
+    ],
+    "summary": "Frontline is a first-person shooter where players take control of the protagonist player character in a first-person perspective where they fight through levels set during the Second World War against the Wehrmacht using historical weaponry of the era, performing a series of military operations. Briefings take place at the start of each mission, which advance the plot and introduce new characters. Each mission is structured through a number of linear levels, each with differing locations, levels of action and styles of gameplay. Initially the player character begins on the frontlines during D-Day backed up by other computer AI-controlled soldiers with an emphasis on fast action-orientated gun-based gameplay. As the story progress however, the player character is sent on a variety of other missions including a number of covert and undercover operations in locations such as military based, German-occupied towns and manors, submarines and countryside settings. The player character is tasked with objectives during levels that range from infiltration, espionage, rescue and recon. Because of the variety between missions and locations, gameplay also changes pace. While many missions involve Allied assaults on German targets others include elements of stealth and exploration. For example one selections of missions has the player detach from an allied raid to infiltrate a German U-Boat in order to get to a secret facility while another has them rendezvous and sneak into a German headquarters in disguise to rescue an operative. Many missions are performed solo yet some include an AI companion for backup. Health is determined by a health bar that can be replenished using a selection \"medikits\" found throughout levels with varying degrees of effect.\n\nDuring missions, players can earn medals by the end of each level be meeting requirements such as completions of objectives, eliminating an amount of enemies and maintaining a percentage of health throughout, all represented by a bronze, silver or gold star.",
+    "tags": [
+      1,
+      22,
+      39,
+      268435461,
+      536870914,
+      536870931,
+      536871213,
+      536871365,
+      536871378,
+      536871474,
+      536871475,
+      536871937,
+      536872019,
+      536872733,
+      536873999,
+      536874743,
+      536874822,
+      536874947,
+      536875058,
+      536875073,
+      536875081,
+      536875091,
+      536875122,
+      536875137,
+      536875156,
+      536875157,
+      536875242,
+      536875262,
+      536875265,
+      536875271,
+      536875303,
+      536875358,
+      536875420,
+      536875436,
+      536875464,
+      536875483,
+      536875488,
+      536875491,
+      536875525,
+      536875572,
+      536875624,
+      536875753,
+      536875803,
+      536875804,
+      536875830,
+      536875904,
+      536875941,
+      536875949,
+      536876219,
+      536876221,
+      536876235,
+      536876262,
+      536876334,
+      536876395,
+      536876407,
+      536876499,
+      536876521,
+      536876629,
+      536876687,
+      536876701,
+      536876737,
+      536876800,
+      536876933,
+      536877264,
+      536877286,
+      536877537,
+      536877605,
+      536877801,
+      536877820,
+      536877928,
+      536877950,
+      536878025,
+      536878317,
+      536879087,
+      536879605,
+      536879606,
+      536879607,
+      536879610,
+      536879613,
+      536879835,
+      536880441,
+      536880725,
+      536881372,
+      536881514,
+      536882113,
+      536882224,
+      536882908,
+      536883140,
+      536883928,
+      536884029,
+      536884207,
+      536884956,
+      536886218,
+      536888127,
+      536889479,
+      536892521,
+      536892522
+    ]
+  },
+  {
+    "id": 152765,
+    "aggregated_rating": 94.0,
+    "cover": {
+      "id": 180976,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3vn4.jpg"
+    },
+    "name": "Castlevania Advance Collection",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 642573,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrt9.jpg"
+      },
+      {
+        "id": 642574,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrta.jpg"
+      },
+      {
+        "id": 642575,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrtb.jpg"
+      },
+      {
+        "id": 642576,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrtc.jpg"
+      },
+      {
+        "id": 642577,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrtd.jpg"
+      },
+      {
+        "id": 642578,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrte.jpg"
+      },
+      {
+        "id": 642579,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrtf.jpg"
+      },
+      {
+        "id": 642580,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scdrtg.jpg"
+      }
+    ],
+    "summary": "Dracula is resurrected again... Castlevania Advance Collection, a collection of masterpieces of exploratory action games, is here! In addition to the three exploratory action games of the Castlevania Dracula series, this work also has undisclosed art collections for the first time. Please use this work equipped with a rewind function and other convenient functions.",
+    "tags": [
+      1,
+      17,
+      19,
+      268435464,
+      268435487,
+      536874120
+    ],
+    "videos": [
+      {
+        "id": 55122,
+        "video_id": "fXVARrPgGDM"
+      },
+      {
+        "id": 55123,
+        "video_id": "dXkA6RGW0l8"
+      },
+      {
+        "id": 55124,
+        "video_id": "wmZF2C1MmbM"
+      },
+      {
+        "id": 55125,
+        "video_id": "PKZWrHU8hhA"
+      },
+      {
+        "id": 55126,
+        "video_id": "r-hN1UvSJm8"
+      }
+    ]
+  },
+  {
+    "id": 2364,
+    "aggregated_rating": 90.5,
+    "cover": {
+      "id": 101097,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2609.jpg"
+    },
+    "name": "Xenoblade Chronicles",
+    "platforms": [
+      {
+        "id": 5,
+        "name": "Wii"
+      },
+      {
+        "id": 41,
+        "name": "Wii U"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 6424,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rkkxefr781cg3ynq9q3j.jpg"
+      },
+      {
+        "id": 6425,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fbgoszakt4zybmcszosv.jpg"
+      },
+      {
+        "id": 6426,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hqvr7j7uv4gtzvthfkce.jpg"
+      },
+      {
+        "id": 6939,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ghqjhfo12bpnq1a2fkxk.jpg"
+      },
+      {
+        "id": 178941,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zfd5nzcasi0mp5bx1asm.jpg"
+      },
+      {
+        "id": 178942,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rlwvawl7y2n6boyr7e9t.jpg"
+      },
+      {
+        "id": 178943,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xz2bgoevuemyeixygztn.jpg"
+      },
+      {
+        "id": 178944,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/p6y6j75kukqj5cth2hwc.jpg"
+      },
+      {
+        "id": 178945,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/j0tcxzrgdfv4tmoay5jv.jpg"
+      },
+      {
+        "id": 178946,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/k5i27sr9tmqegzxojm86.jpg"
+      },
+      {
+        "id": 178947,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/svdbrumnwh1z2lzorvhh.jpg"
+      },
+      {
+        "id": 178948,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/dqvtvndro2aw4tyevnn5.jpg"
+      }
+    ],
+    "summary": "Xenoblade Chronicles follows Shulk and his band of friends as they search for answers about the mysterious \"Monado\" sword and defend their homeland from violent robotic creatures known as the Mechon. The game contains an open world design and strongly emphasizes exploration due to the world\u0027s large size. The game was very well received by critics, with many citing it as a great example of innovation and improvement in Japanese role-playing video games. The game has spawned a sub-series of the larger \"Xeno\" series, including Xenoblade Chronicles X (Wii U) and Xenoblade Chronicles 2 (Switch).",
+    "tags": [
+      1,
+      17,
+      18,
+      38,
+      268435468,
+      268435487,
+      536871208,
+      536871422,
+      536871882,
+      536871938,
+      536871969,
+      536872098,
+      536872862,
+      536873141,
+      536873364,
+      536875046,
+      536875302,
+      536875455,
+      536875753,
+      536875830,
+      536875837,
+      536875871,
+      536876199,
+      536876476,
+      536876496,
+      536876544,
+      536877100,
+      536877383,
+      536877560,
+      536877992,
+      536878135,
+      536878136,
+      536878328,
+      536878464,
+      536878577,
+      536880076,
+      536880422,
+      536880541,
+      536880544,
+      536881260,
+      536883148,
+      536883422,
+      536902035
+    ]
+  },
+  {
+    "id": 80348,
+    "aggregated_rating": 100.0,
+    "cover": {
+      "id": 99851,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co251n.jpg"
+    },
+    "name": "MapleStory 2",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 238903,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/lpbligtxzzfutknaygug.jpg"
+      }
+    ],
+    "summary": "MapleStory 2 is a new MMORPG set in a colorful 3D block universe. Embark on epic quests, build your dream world, and explore a new dimension of MapleStory!",
+    "tags": [
+      1,
+      17,
+      268435468,
+      268435469,
+      268435487
+    ],
+    "videos": [
+      {
+        "id": 19436,
+        "video_id": "fuQdyJC9IAA"
+      },
+      {
+        "id": 22587,
+        "video_id": "whVoKizV0Mg"
+      }
+    ]
+  },
+  {
+    "id": 26202,
+    "aggregated_rating": 90.6875,
+    "cover": {
+      "id": 85415,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1twn.jpg"
+    },
+    "name": "Nex Machina",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 79118,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xphmpxnifikrtlupzaw0.jpg"
+      },
+      {
+        "id": 79119,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/atyvesqlzgdvo2bnycj1.jpg"
+      },
+      {
+        "id": 79120,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mqpvpntggsb6caqrpphe.jpg"
+      },
+      {
+        "id": 79121,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qrhdpxzrpfypwz1lq6sw.jpg"
+      },
+      {
+        "id": 437075,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc9d8z.jpg"
+      }
+    ],
+    "summary": "From the collaboration between Housemarque (Resogun, Alienation, Matterfall), and Robotron and Smash TV legendary creator Eugene Jarvis comes Nex Machina, an explosive arcade experience created with competition in mind.",
+    "tags": [
+      1,
+      18,
+      268435461,
+      268435488,
+      268435489,
+      536870979,
+      536871078,
+      536871436,
+      536871881,
+      536871882,
+      536872422,
+      536875188,
+      536875680,
+      536876081,
+      536888892,
+      536888893
+    ],
+    "videos": [
+      {
+        "id": 13870,
+        "video_id": "9Bx8y83t3AU"
+      },
+      {
+        "id": 13997,
+        "video_id": "deDQQZJc6ic"
+      },
+      {
+        "id": 14637,
+        "video_id": "jlMa5lZZQ-g"
+      }
+    ]
+  },
+  {
+    "id": 133503,
+    "aggregated_rating": 91.0,
+    "cover": {
+      "id": 205171,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4eb7.jpg"
+    },
+    "name": "Shovel Knight: Pocket Dungeon",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 582286,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sccham.jpg"
+      },
+      {
+        "id": 582287,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchan.jpg"
+      },
+      {
+        "id": 582288,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchao.jpg"
+      },
+      {
+        "id": 582289,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchap.jpg"
+      },
+      {
+        "id": 582290,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchaq.jpg"
+      },
+      {
+        "id": 582291,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchar.jpg"
+      },
+      {
+        "id": 582292,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchas.jpg"
+      },
+      {
+        "id": 582293,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scchat.jpg"
+      }
+    ],
+    "summary": "Delve with Shovel Knight into the depths of the Pocket Dungeon in an action-packed puzzle adventure mashup like none other! Join your mysterious guide Puzzle Knight as you shovel through scads of foes, procure new equipment, and battle bosses both familiar and new. Explore a tale with endless twists and turns, quest as your favorite heroes, and even challenge a friend for fast-paced head-to-head competition in Shovel Knight Pocket Dungeon!",
+    "tags": [
+      1,
+      17,
+      268435465,
+      268435487,
+      268435488,
+      268435489
+    ],
+    "videos": [
+      {
+        "id": 53372,
+        "video_id": "RcfQaOvgOG0"
+      }
+    ]
+  },
+  {
+    "id": 21639,
+    "aggregated_rating": 100.0,
+    "cover": {
+      "id": 16436,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/uk890iuq1sucjenv3ps6.jpg"
+    },
+    "name": "Challenge Me: Math Workout",
+    "summary": "A brain training game for the Nintendo DS.",
+    "tags": [
+      536871830
+    ]
+  },
+  {
+    "id": 21896,
+    "aggregated_rating": 100.0,
+    "name": "GTDUPEA V Remastered"
+  },
+  {
+    "id": 1693,
+    "aggregated_rating": 90.6666666666667,
+    "cover": {
+      "id": 218795,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4otn.jpg"
+    },
+    "name": "Advance Wars: Dual Strike",
+    "platforms": [
+      {
+        "id": 20,
+        "name": "Nintendo DS"
+      },
+      {
+        "id": 41,
+        "name": "Wii U"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 24691,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/q7p7m9dcngvjhv13c2cm.jpg"
+      },
+      {
+        "id": 24692,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/aykrik5ep3huyhy0ll1o.jpg"
+      },
+      {
+        "id": 24693,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/o2ecagmyycmyoifabavt.jpg"
+      },
+      {
+        "id": 24694,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/anmmddow5o0eqsvfs95j.jpg"
+      },
+      {
+        "id": 24695,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wzw4ajogbfajqhwo7h8w.jpg"
+      },
+      {
+        "id": 180266,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ycgalmmvvfeqnbswojfe.jpg"
+      },
+      {
+        "id": 180267,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/arhscxyoqzdszhl12xys.jpg"
+      },
+      {
+        "id": 180268,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bc8ednsca5r9wo5jzjzf.jpg"
+      },
+      {
+        "id": 180269,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jaz0y0stxm6zisqsqzms.jpg"
+      },
+      {
+        "id": 180270,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bspbhqeq7ok21tr59r3q.jpg"
+      },
+      {
+        "id": 180271,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kefnor8bbith7gjhwltg.jpg"
+      },
+      {
+        "id": 180272,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yiondfqrwf11kqgqnpjx.jpg"
+      }
+    ],
+    "summary": "Advance Wars: Dual Strike is the third installment in the Advance Wars series (first on DS media). Advance Wars is the international title of the Wars video game series, which dates back to the Family Computer game Famicom Wars in 1988.\nThe storyline is a continuation of the previous series and is set in the new location of Omega Land. Black Hole has returned under the leadership of a new commander who seeks to give himself eternal life by draining the energy of Omega Land. The Allied Nations struggle to overcome this threat and are eventually joined by several former Black Hole commanding officers in an effort to save the land.",
+    "tags": [
+      18,
+      39,
+      268435469,
+      268435471,
+      268435472,
+      268435480,
+      536870913,
+      536871213,
+      536871327,
+      536871475,
+      536871717,
+      536871882,
+      536872074,
+      536872129,
+      536872658,
+      536872733,
+      536872835,
+      536873323,
+      536873350,
+      536873753,
+      536873822,
+      536874694,
+      536875158,
+      536875160,
+      536875171,
+      536875265,
+      536875356,
+      536875358,
+      536875422,
+      536875434,
+      536875525,
+      536875654,
+      536875709,
+      536875765,
+      536875876,
+      536875901,
+      536875954,
+      536876095,
+      536876232,
+      536876274,
+      536876366,
+      536876827,
+      536877394,
+      536877820,
+      536877947,
+      536878517,
+      536878550,
+      536879058,
+      536879146,
+      536880334,
+      536881988,
+      536881995,
+      536882224,
+      536884021
+    ],
+    "videos": [
+      {
+        "id": 37699,
+        "video_id": "5vMft-cilpY"
+      }
+    ]
+  },
+  {
+    "id": 40477,
+    "aggregated_rating": 92.2,
+    "cover": {
+      "id": 71223,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iyf.jpg"
+    },
+    "name": "Slay the Spire",
+    "platforms": [
+      {
+        "id": 3,
+        "name": "Linux"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      },
+      {
+        "id": 130,
+        "name": "Nintendo Switch"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 106580,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sxcn4siijskumtcdr44e.jpg"
+      },
+      {
+        "id": 106581,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wiix88zrz8o1mguwi47n.jpg"
+      },
+      {
+        "id": 106582,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fhuu3ruia2l43ideld0t.jpg"
+      },
+      {
+        "id": 106583,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/g9gcvlppj2qwuqsgprjd.jpg"
+      },
+      {
+        "id": 106584,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cvybtfz6kkvrt6vnyutq.jpg"
+      }
+    ],
+    "summary": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+    "tags": [
+      17,
+      268435468,
+      268435471,
+      268435472,
+      268435487,
+      268435488,
+      268435491,
+      536871208,
+      536871906,
+      536871938,
+      536872060,
+      536872578,
+      536872992,
+      536873861,
+      536874083,
+      536874694,
+      536888204,
+      536894105
+    ],
+    "videos": [
+      {
+        "id": 24401,
+        "video_id": "9SZUtyYSOjQ"
+      },
+      {
+        "id": 37255,
+        "video_id": "iS9GnKTADrE"
+      }
+    ]
+  },
+  {
+    "id": 42895,
+    "aggregated_rating": 95.0,
+    "cover": {
+      "id": 103519,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co27vj.jpg"
+    },
+    "name": "Stardew Valley: Collector\u0027s Edition",
+    "platforms": [
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 499374,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scapbi.jpg"
+      }
+    ],
+    "summary": "Chuckle Fish teamed up with 505 Games and ConcernedApe to produce this Collector’s Edition, which includes:\n\nA copy of Stardew Valley for Xbox One or PlayStation 4\nA disc containing the Collector’s Edition Soundtrack featuring 33 hand-picked tracks\nExclusive fold-out map of Stardew Valley, illustrated by Kari Fry\nA Mini-Guidebook created by the artist and author of the full guidebook, Kari Fry",
+    "tags": [
+      17,
+      28,
+      33,
+      268435468,
+      268435469,
+      268435488
+    ],
+    "videos": [
+      {
+        "id": 51563,
+        "video_id": "knnwoPvL784"
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "aggregated_rating": 91.5384615384615,
+    "cover": {
+      "id": 81915,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7f.jpg"
+    },
+    "name": "The Last of Us",
+    "platforms": [
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 236,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/upogjfthdffjlzfi26xe.jpg"
+      },
+      {
+        "id": 237,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/emvrwg5vhpfcmn9loxgu.jpg"
+      },
+      {
+        "id": 238,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kdt90b2rbx4tmewaxur9.jpg"
+      },
+      {
+        "id": 239,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/oon90tsbpin8qae3rldz.jpg"
+      },
+      {
+        "id": 240,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rta7qwesachxsykzwokf.jpg"
+      }
+    ],
+    "summary": "A third person shooter/stealth/survival hybrid, in which twenty years after the outbreak of a parasitic fungus which takes over the neural functions of humans, Joel, a Texan with a tragic familial past, finds himself responsible with smuggling a fourteen year old girl named Ellie to a militia group called the Fireflies, while avoiding strict and deadly authorities, infected fungal hosts and other violent survivors.",
+    "tags": [
+      1,
+      19,
+      21,
+      23,
+      268435461,
+      268435487,
+      536870976,
+      536870981,
+      536871044,
+      536871071,
+      536871073,
+      536871133,
+      536871134,
+      536871195,
+      536871251,
+      536871292,
+      536871422,
+      536871470,
+      536871535,
+      536871701,
+      536871889,
+      536871937,
+      536871945,
+      536872032,
+      536872184,
+      536872229,
+      536872232,
+      536872234,
+      536872245,
+      536872285,
+      536872315,
+      536872352,
+      536872511,
+      536872622,
+      536872647,
+      536872715,
+      536872748,
+      536872758,
+      536872847,
+      536872883,
+      536872952,
+      536873097,
+      536873192,
+      536873326,
+      536873584,
+      536873712,
+      536873810,
+      536874014,
+      536874182,
+      536874345,
+      536874398,
+      536874452,
+      536874706,
+      536874745,
+      536874822,
+      536874834,
+      536874906,
+      536875057,
+      536875097,
+      536875133,
+      536875151,
+      536875154,
+      536875157,
+      536875162,
+      536875194,
+      536875196,
+      536875199,
+      536875216,
+      536875229,
+      536875280,
+      536875304,
+      536875305,
+      536875320,
+      536875340,
+      536875342,
+      536875345,
+      536875358,
+      536875385,
+      536875420,
+      536875437,
+      536875438,
+      536875453,
+      536875456,
+      536875483,
+      536875491,
+      536875501,
+      536875523,
+      536875526,
+      536875527,
+      536875532,
+      536875535,
+      536875538,
+      536875540,
+      536875545,
+      536875549,
+      536875553,
+      536875554,
+      536875572,
+      536875623,
+      536875624,
+      536875668,
+      536875669,
+      536875695,
+      536875731,
+      536875741,
+      536875755,
+      536875762,
+      536875765,
+      536875777,
+      536875786,
+      536875803,
+      536875808,
+      536875819,
+      536875830,
+      536875831,
+      536875837,
+      536875886,
+      536875900,
+      536875902,
+      536876062,
+      536876073,
+      536876109,
+      536876171,
+      536876176,
+      536876188,
+      536876220,
+      536876227,
+      536876229,
+      536876241,
+      536876251,
+      536876262,
+      536876322,
+      536876329,
+      536876332,
+      536876337,
+      536876363,
+      536876384,
+      536876397,
+      536876414,
+      536876417,
+      536876439,
+      536876466,
+      536876483,
+      536876499,
+      536876502,
+      536876505,
+      536876520,
+      536876577,
+      536876584,
+      536876587,
+      536876596,
+      536876652,
+      536876670,
+      536876703,
+      536876706,
+      536876712,
+      536876727,
+      536876735,
+      536876759,
+      536876760,
+      536876797,
+      536876911,
+      536876978,
+      536876987,
+      536877015,
+      536877040,
+      536877047,
+      536877081,
+      536877109,
+      536877122,
+      536877128,
+      536877151,
+      536877157,
+      536877166,
+      536877169,
+      536877173,
+      536877203,
+      536877221,
+      536877283,
+      536877288,
+      536877289,
+      536877290,
+      536877309,
+      536877319,
+      536877321,
+      536877329,
+      536877332,
+      536877352,
+      536877374,
+      536877383,
+      536877393,
+      536877439,
+      536877453,
+      536877501,
+      536877516,
+      536877532,
+      536877560,
+      536877625,
+      536877643,
+      536877649,
+      536877657,
+      536877688,
+      536877762,
+      536877780,
+      536877782,
+      536877790,
+      536877809,
+      536877910,
+      536877942,
+      536877960,
+      536877976,
+      536877977,
+      536877985,
+      536878009,
+      536878027,
+      536878032,
+      536878057,
+      536878141,
+      536878215,
+      536878247,
+      536878263,
+      536878267,
+      536878315,
+      536878317,
+      536878331,
+      536878415,
+      536878468,
+      536878512,
+      536878515,
+      536878541,
+      536878562,
+      536879045,
+      536879069,
+      536879233,
+      536879734,
+      536879750,
+      536879766,
+      536879806,
+      536879824,
+      536879908,
+      536880073,
+      536880195,
+      536880240,
+      536880278,
+      536880319,
+      536880400,
+      536880449,
+      536880573,
+      536880680,
+      536880721,
+      536880732,
+      536881102,
+      536881103,
+      536881389,
+      536881602,
+      536882193,
+      536882489,
+      536882490,
+      536882491,
+      536882492,
+      536882493,
+      536882494,
+      536887629,
+      536888127,
+      536890349,
+      536891386
+    ],
+    "videos": [
+      {
+        "id": 14721,
+        "video_id": "fxeNaDjU7sw"
+      },
+      {
+        "id": 14722,
+        "video_id": "UBshR1qD3oU"
+      },
+      {
+        "id": 14723,
+        "video_id": "0hUN_2vS8Ic"
+      },
+      {
+        "id": 14724,
+        "video_id": "uaQQJwZpswQ"
+      },
+      {
+        "id": 14725,
+        "video_id": "0a4IRU2h2N8"
+      },
+      {
+        "id": 14726,
+        "video_id": "PTTvQf5BRPw"
+      },
+      {
+        "id": 14727,
+        "video_id": "M5y03s0-Bbk"
+      }
+    ]
+  },
+  {
+    "id": 863,
+    "aggregated_rating": 91.0,
+    "cover": {
+      "id": 182345,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3wp5.jpg"
+    },
+    "name": "Sid Meier\u0027s Alpha Centauri",
+    "platforms": [
+      {
+        "id": 3,
+        "name": "Linux"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "summary": "Legendary designer Sid Meier presents the next evolution in strategy games, with the most addictive, compelling gameplay yet. Explore the alien planet that is your new home and uncover its myriad mysteries. Discover over 75 extraordinary technologies. Build over 60 base upgrades and large scales secret projects for your empire. Conquer your enemies with a war machine that you design from over 32,000 possible unit types.",
+    "tags": [
+      18,
+      41,
+      268435469,
+      268435471,
+      268435472,
+      536870933,
+      536870963,
+      536870981,
+      536871126,
+      536871327,
+      536871416,
+      536871472,
+      536871475,
+      536871507,
+      536871859,
+      536871882,
+      536871906,
+      536872014,
+      536872015,
+      536872055,
+      536872060,
+      536872319,
+      536872914,
+      536872956,
+      536873089,
+      536874694,
+      536875046,
+      536875133,
+      536875184,
+      536875361,
+      536875432,
+      536875531,
+      536875559,
+      536875710,
+      536875941,
+      536876326,
+      536876391,
+      536876412,
+      536876578,
+      536876712,
+      536876812,
+      536876931,
+      536876980,
+      536877744,
+      536879074,
+      536879827,
+      536879901,
+      536880043,
+      536880163,
+      536880966,
+      536881271,
+      536881530,
+      536882042,
+      536883035,
+      536886154
+    ]
+  },
+  {
+    "id": 11416,
+    "aggregated_rating": 93.25,
+    "cover": {
+      "id": 76535,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1n1z.jpg"
+    },
+    "name": "Persona 3 Portable",
+    "platforms": [
+      {
+        "id": 38,
+        "name": "PlayStation Portable"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 320245,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3p.jpg"
+      },
+      {
+        "id": 320246,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3q.jpg"
+      },
+      {
+        "id": 320247,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3r.jpg"
+      },
+      {
+        "id": 320248,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3s.jpg"
+      },
+      {
+        "id": 320249,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3t.jpg"
+      },
+      {
+        "id": 320250,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3u.jpg"
+      },
+      {
+        "id": 320251,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6v3v.jpg"
+      }
+    ],
+    "summary": "Persona 3 Portable is an enhanced remake of Persona 3 for the PlayStation Portable. The game features an option to play as a female character, which alters some aspects of the story. In addition to the new playable character, there are two new difficulty levels to select from alongside the original game\u0027s three. The game also features some other story related changes regardless of the player character gender. The battle system is also updated to be closer that of Persona 4.",
+    "tags": [
+      1,
+      19,
+      268435468,
+      536870947,
+      536870990,
+      536871015,
+      536871088,
+      536871148,
+      536871270,
+      536871409,
+      536871433,
+      536871470,
+      536871473,
+      536871496,
+      536871839,
+      536871851,
+      536871938,
+      536872017,
+      536872032,
+      536872098,
+      536872201,
+      536872214,
+      536872225,
+      536872416,
+      536872425,
+      536872435,
+      536872563,
+      536872647,
+      536872780,
+      536872793,
+      536872957,
+      536873111,
+      536873364,
+      536873473,
+      536873591,
+      536874343,
+      536874398,
+      536875011,
+      536875046,
+      536875057,
+      536875058,
+      536875074,
+      536875075,
+      536875081,
+      536875153,
+      536875158,
+      536875178,
+      536875196,
+      536875198,
+      536875234,
+      536875241,
+      536875247,
+      536875261,
+      536875271,
+      536875275,
+      536875300,
+      536875304,
+      536875307,
+      536875313,
+      536875317,
+      536875318,
+      536875327,
+      536875330,
+      536875341,
+      536875358,
+      536875359,
+      536875372,
+      536875380,
+      536875409,
+      536875436,
+      536875449,
+      536875453,
+      536875523,
+      536875525,
+      536875537,
+      536875538,
+      536875568,
+      536875575,
+      536875590,
+      536875621,
+      536875622,
+      536875699,
+      536875700,
+      536875705,
+      536875713,
+      536875762,
+      536875766,
+      536875767,
+      536875770,
+      536875778,
+      536875880,
+      536875882,
+      536875930,
+      536875941,
+      536876063,
+      536876091,
+      536876096,
+      536876098,
+      536876169,
+      536876176,
+      536876195,
+      536876201,
+      536876232,
+      536876240,
+      536876241,
+      536876306,
+      536876307,
+      536876309,
+      536876311,
+      536876312,
+      536876313,
+      536876320,
+      536876332,
+      536876495,
+      536876509,
+      536876587,
+      536876647,
+      536876650,
+      536876674,
+      536876758,
+      536876767,
+      536876815,
+      536876954,
+      536876955,
+      536876976,
+      536876982,
+      536877027,
+      536877303,
+      536877304,
+      536877309,
+      536877319,
+      536877373,
+      536877383,
+      536877394,
+      536877560,
+      536877696,
+      536877765,
+      536877768,
+      536877813,
+      536877841,
+      536877988,
+      536878078,
+      536878100,
+      536878133,
+      536878209,
+      536878223,
+      536878278,
+      536878324,
+      536878349,
+      536878459,
+      536878523,
+      536878524,
+      536878546,
+      536878556,
+      536878562,
+      536878604,
+      536879894,
+      536879895,
+      536879980,
+      536880094,
+      536880201,
+      536880230,
+      536880243,
+      536880244,
+      536880249,
+      536880548,
+      536880549,
+      536880744,
+      536880755,
+      536880843,
+      536880918,
+      536880968,
+      536881452,
+      536881516,
+      536882348,
+      536882688,
+      536882699,
+      536882700,
+      536882702,
+      536882708,
+      536882709,
+      536882872,
+      536883080,
+      536883254,
+      536883271,
+      536883539,
+      536883948,
+      536884205,
+      536884846,
+      536885639,
+      536885640,
+      536885641,
+      536887630,
+      536893438
+    ],
+    "videos": [
+      {
+        "id": 28829,
+        "video_id": "JB4WyHe-HRM"
+      }
+    ]
+  }
+]

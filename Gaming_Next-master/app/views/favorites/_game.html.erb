@@ -1,0 +1,18 @@
+<div class="game-card-container">
+  <div class="game-card">
+    <%= image_tag "#{game.cover}", class: "game-cover"%>
+    <div class="secret">
+      <div class="trashcandiv">
+        <%= link_to favorite_path(favorite), data: {turbo_method: :delete, turbo_confirm: "Remove from favorites ?"} do %>
+          <i class="fa-solid fa-trash-can game-trash-can"></i>
+        <% end %>
+      </div>
+      <%= link_to game_path(favorite.game), class: "linkincard" do %>
+        <p class="game-link"><%= game.rating.to_i %>/100</p>
+        <p class="game-link">See more</p>
+      <% end %>
+    </div>
+  </div>
+  <p><%= truncate(favorite.game.name, length: 40, separator: " ") %></p>
+
+</div>

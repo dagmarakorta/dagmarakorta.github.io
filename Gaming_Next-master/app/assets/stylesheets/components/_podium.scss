@@ -1,0 +1,139 @@
+.one {
+  color: #C9B037;
+  top: 10px;
+  font-size: 60px;
+}
+
+.two {
+  color: #9d9c9c;
+  font-size: 60px;
+}
+
+.three {
+  color: #AD8A56;
+  font-size: 60px;
+}
+
+@keyframes glow-gold {
+  from {
+    box-shadow: 0 0 5px -5px #C9B037;
+  }
+  to {
+    box-shadow: 0 0 5px 5px #C9B037;
+  }
+}
+
+@keyframes glow-silver {
+  from {
+    box-shadow: 0 0 5px -5px #9d9c9c;
+  }
+  to {
+    box-shadow: 0 0 5px 5px #9d9c9c;
+  }
+}
+
+@keyframes glow-bronze {
+  from {
+    box-shadow: 0 0 5px -5px #AD8A56;
+  }
+  to {
+    box-shadow: 0 0 5px 5px #AD8A56;
+  }
+}
+
+.suggested-cover-gold {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  animation: glow-gold 2s infinite alternate;
+  position: relative;
+  i {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+  }
+}
+
+.suggested-cover-silver {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  animation: glow-silver 2s infinite alternate;
+  position: relative;
+  i {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+  }
+}
+
+.suggested-cover-bronze {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  animation: glow-bronze 2s infinite alternate;
+  position: relative;
+  i {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+  }
+}
+
+.suggested-card {
+  position: relative;
+  text-align: center;
+  margin: 15px;
+}
+
+.suggested-secret {
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(91, 88, 88, 0.801);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 15px;
+  height: 450px;
+  width: 300px;
+  opacity: 0;
+  padding: 15px 5px;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  &:hover {
+    opacity: 1;
+    transition: 0.6s;
+  }
+}
+
+.top {
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: $dark-blue;
+  }
+}
+
+.moon .top {
+  h1 {
+    color: white;
+  }
+}
+
+
+.suggest-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.all {
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+  }
+}
