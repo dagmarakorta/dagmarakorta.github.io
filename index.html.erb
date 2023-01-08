@@ -1,0 +1,16 @@
+<% @disable_nav = true %>
+<% @disable_foot = true %>
+
+<div class="homepage-background">
+  <div class="logo1 homepagelogo">Gaming<br><em>Next</em></div>
+  <div class="homepage-box">
+  <h1 class="homepage-h1">You don’t know what to play ? <br>We got you !</h1>
+  <p>Just click on search, follow the instructions, and find the best game for you !</p>
+  <div class="position-relative">
+    <%= image_tag "white_arrow.gif", alt: "gamer gif", class: "white-arrow" %>
+    <%= link_to "Let's start", favorites_path, class: "homepagebutton", id: "z-index"%>
+  </div>
+  </div>
+
+  <%= image_tag "game_gif.gif", alt: "gamer gif", class: "homepage-gif" %>
+</div>
