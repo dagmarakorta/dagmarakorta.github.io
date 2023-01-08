@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '~> 2.5.0'
+ruby "3.0.3"
 
 # Social media button for sharing links
 gem 'social-share-button'
